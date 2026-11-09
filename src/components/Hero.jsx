@@ -1,3 +1,5 @@
+import logo from "../assets/skova-logo.jpg";
+
 export default function Hero() {
   return (
     <section className="hero" id="home">
@@ -21,8 +23,7 @@ export default function Hero() {
         <div className="ring r1" />
         <div className="ring r2" />
         <div className="core">
-          <b>SKOVA</b>
-          <small>SELECT · STORE</small>
+          <img className="coreLogo" src={logo} alt="SKOVA STORE" />
         </div>
         <span className="artNote">SELECTED FOR YOU · SYRIA</span>
       </div>

@@ -1,10 +1,9 @@
+import logo from "../assets/skova-logo.jpg";
+
 export default function Brand() {
   return (
     <a className="brand" href="#">
-      <span className="wordmark">
-        <b>SKOVA</b>
-        <small>STORE</small>
-      </span>
+      <img className="brandLogo" src={logo} alt="SKOVA STORE" />
     </a>
   );
 }

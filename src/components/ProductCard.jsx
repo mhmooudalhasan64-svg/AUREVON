@@ -1,3 +1,4 @@
+import logo from "../assets/skova-logo.jpg";
 import { money } from "../lib/format";
 
 export default function ProductCard({ product, onAdd }) {
@@ -10,8 +11,7 @@ export default function ProductCard({ product, onAdd }) {
           <img src={image} alt={product.name} />
         ) : (
           <div className="placeholder">
-            <b>SK</b>
-            <small>SKOVA SELECT</small>
+            <img className="placeholderLogo" src={logo} alt="SKOVA STORE" />
           </div>
         )}
         {product.is_featured && <span className="featured">اختيار مميز</span>}
