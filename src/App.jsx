@@ -5,6 +5,7 @@ import { useCart } from "./hooks/useCart";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Shop from "./components/Shop";
+import Services from "./components/Services";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import CartDrawer from "./components/CartDrawer";
@@ -66,6 +67,7 @@ export default function App() {
         error={error}
         onAdd={cart.add}
       />
+      <Services />
       <About />
       <Footer />
 
